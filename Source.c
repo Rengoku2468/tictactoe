@@ -16,7 +16,6 @@ void firsttable() {
         printf("\n\n");
     }
 }
-// game logic.
 void initializegame(int rowan, int columnan, char var) {
     char* ptr = &matrix[rowan][columnan];
     *ptr = var;
