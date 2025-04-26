@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <stdint.h>
+
+
+#define matrix_len  3
 // to create the grid layout for the tic tac toe.
-char matrix[3][3] = {
+char matrix[matrix_len][matrix_len] = {
     {'-', '-', '-'},
     {'-', '-', '-'},
     {'-', '-', '-'},
