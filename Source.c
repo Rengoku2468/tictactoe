@@ -6,6 +6,7 @@ char matrix[3][3] = {
     {'-', '-', '-'},
 
 };
+// this helps to initialize the first table.
 void firsttable() {
     for (int row = 0; row < 3; row++) {
         for (int col = 0; col < 3; col++) {
@@ -15,6 +16,7 @@ void firsttable() {
         printf("\n\n");
     }
 }
+// game logic.
 void initializegame(int rowan, int columnan, char var) {
     char* ptr = &matrix[rowan][columnan];
     *ptr = var;
